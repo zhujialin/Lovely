@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="lovely:war exploded">
+  <artifact type="exploded-war" name="Lovely:war exploded">
     <output-path>$PROJECT_DIR$/target/Lovely</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -32,6 +32,11 @@
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.2" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.2" />
           <element id="library" level="project" name="Maven: org.logback-extensions:logback-ext-spring:0.1.1" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.6.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.6" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.5" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

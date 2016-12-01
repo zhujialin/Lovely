@@ -6,7 +6,7 @@
             </Pattern>
         </encoder>
     </appender>
-    <!-- 
+    <!--
     <logger name="com.demo" level="DEBUG"/>
     <logger name="com.ibatis" level="DEBUG"/>
     <logger name="com.ibatis.common.jdbc.SimpleDataSource" level="DEBUG"/>
