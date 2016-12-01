@@ -16,7 +16,6 @@ public class UserController {
  
 	@Autowired
 	private UserService userService;
-	//he
     @RequestMapping(value="index")
     public ModelAndView index(User user){
     	userService.insertUser(user);
