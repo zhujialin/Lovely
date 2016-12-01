@@ -25,6 +25,12 @@ public class UserController {
         mav.addObject("user",user);
         return mav;
     }
+    @RequestMapping(value="/GoSocket")
+    public ModelAndView index(){
+        ModelAndView mav=new ModelAndView();
+        mav.setViewName("GoSocket");
+        return mav;
+    }
 
     @RequestMapping(value = "demo")
     @ResponseBody
